@@ -30,7 +30,7 @@ header {
 .navigation a {
     color: #3a6cf4;
     text-decoration: none;
-    font-style: 1.1em;
+    font-size: 1.1em;
     font-weight: 500;
     padding-left: 30px;
 }
@@ -357,6 +357,14 @@ footer .social-icons a {
 
 
 @media (max-width:641px) {
+    header {
+        padding: 8px 10px;
+    }
+
+    .navigation {
+        padding-left: 2px;
+    }
+
     body {
         font-size: 12px;
     }
@@ -369,8 +377,19 @@ footer .social-icons a {
         font-size: 1.4em;
     }
 
+    .form {
+        width: 380px;
+    }
+
     footer .social-icons a {
         padding: 0 6px 0 0;
+    }
+
+    .navigation a {
+
+        font-size: 0.9em;
+        font-weight: 400;
+        padding-left: 10px;
     }
 }
 
