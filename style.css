@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    position: relative;
+}
+
 header {
     background-color: #f0f0f0;
     width: 100%;
@@ -242,11 +246,14 @@ section {
 }
 
 footer {
+    width: 100%;
     background-color: #000016;
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-title {
@@ -381,8 +388,14 @@ footer .social-icons a {
         width: 380px;
     }
 
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     footer .social-icons a {
-        padding: 0 6px 0 0;
+        padding: 0 6px 0 6px;
     }
 
     .navigation a {
